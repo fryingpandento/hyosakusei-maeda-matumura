@@ -1,0 +1,97 @@
+\documentclass{ltjsarticle}
+\usepackage{luatexja-fontspec}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{mathtools}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{unicode-math}
+\usepackage{listings,jvlisting}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[top=2cm,bottom=2.2cm]{geometry}
+
+\setmathfont{LatinModernMath-Regular}
+
+\setmainfont{Harano Aji Mincho}
+\setsansfont{Harano Aji Gothic}
+\setmainjfont{Harano Aji Mincho}
+\setsansjfont{Harano Aji Gothic}
+
+\usepackage{hyperref}
+\hypersetup{
+  setpagesize=false,
+  bookmarksdepth=3,
+  bookmarksnumbered=true,
+  colorlinks=true,
+  pdftitle={},
+  pdfsubject={},
+  pdfauthor={},
+  linkcolor=blue,
+  anchorcolor=blue,
+  urlcolor=blue,
+  pdfkeywords={}
+}
+
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\small\itshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0cm,
+  xleftmargin=0cm,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1cm,
+  lineskip=-0.5ex
+}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\vspace*{180truept}
+{\Huge レポートタイトル} \
+\end{center}
+\begin{center}
+{\LARGE 講義担当教員名：}
+\vspace{160truept}
+\end{center}
+\begin{flushright}
+{\Large 授業日: }\
+\vspace{10truept}
+{\Large 提出日：\today}
+\end{flushright}
+\begin{center}
+\vspace{70truept}
+{\large 学籍番号：202312628} \
+\vspace{15truept}
+{\large 氏名：松村京亮} \
+\end{center}
+\end{titlepage}
+
+\begin{table}[htbp]
+  \centering
+  \caption{表のキャプション}
+  \label{tab:mytable}
+  \begin{tabular}{ccc}
+    \toprule
+    haigh & 1\% &  \\
+    \midrule
+    efueribv & 2g &  \\
+    ewhufe &  &  \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\bibliographystyle{junsrt}
+\bibliography{references.bib}
+\end{document}
