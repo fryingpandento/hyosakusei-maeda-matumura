@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#0071e3"   # AppleのWebサイトでよく使われる鮮やかな青
+backgroundColor="#FFFFFF" # 背景は純白
+secondaryBackgroundColor="#F5F5F7" # サイドバーなどはごく薄いグレー
+textColor="#1D1D1F"       # 文字は真っ黒ではなく、ごく濃いグレー
+font="sans serif"         # シンプルなゴシック体
